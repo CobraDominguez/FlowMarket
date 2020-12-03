@@ -1,0 +1,124 @@
+
+header {
+    width: 100%;
+    height: 44px;
+    background-color: rgba(73, 63, 252, 1);
+    /* position: fixed; */
+    top: 0;
+    z-index: 100; 
+    font-size: 1.2rem;
+}
+
+header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header .menu .logo img{
+    height: 30px;
+    margin: 10px 0 0 50px; 
+}
+
+header .menu .logo span{
+    height: 10px;
+    margin: 0px 0 0 10px; 
+    color: #d8ddfc;
+}
+
+header .menu .checkbox {
+    display: none; 
+}
+
+header .menu .checkbox:checked ~ .enlacesmobile {
+    transform: translateX(0); 
+}
+
+header .menu label {
+    float: right;
+    margin: 10px 16px 0 0;
+    color: #a9b2ec;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer; 
+}
+
+header .menu .enlaces {
+    display: none;
+    text-align: right;
+    font-size: 16px;
+    margin: 5px 100px 0 0; 
+}
+
+header .menu .enlaces li {
+    display: inline;
+    text-decoration: none;
+    padding: 6px; 
+}
+
+header .menu .enlaces a {
+    text-decoration: none;
+    color: #d8ddfc;
+    padding: 8px;
+    text-align: center; 
+}
+
+header .menu .enlaces a i {
+    margin-right: 4px; 
+}
+
+header .menu .enlaces a:hover {
+    color: #00F3BB;
+}
+
+header .menu .enlaces a:active {
+    color: rgba(6, 10, 36, 0.56); 
+}
+
+header .menu .enlacesmobile {
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    height: 275px;
+    background: rgba(73, 63, 252, 1);
+    transition: all 0.5s;
+    transform: translateX(-105%); 
+}
+
+header .menu .enlacesmobile a {
+    display: block;
+    color: #FFFFFF;
+    height: 50px;
+    text-decoration: none;
+    padding: 24px; 
+}
+
+header .menu .enlacesmobile a i {
+    margin-right: 4px; 
+}
+
+header .menu .enlacesmobile a:hover {
+    color: #00F3BB; 
+}
+  
+@media screen and (min-width: 799px) {
+    header {
+      height: 50px; 
+    }
+  
+    header .menu .enlaces {
+      display: inline-block; 
+    }
+  
+    header .menu label {
+      display: none; 
+    }
+  
+    header .menu .logo img {
+      height: 30px;
+      margin: 10px 0 0 50px; 
+    } 
+}
