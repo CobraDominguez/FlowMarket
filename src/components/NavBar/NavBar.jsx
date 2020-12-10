@@ -1,5 +1,6 @@
 import './NavBar.css';
 import logo from '../../assets/logo.png';
+import CartWidget from './cartWidget';
 
 function Navbar(params) {
     
@@ -23,7 +24,7 @@ function Navbar(params) {
                     <li><a href="#"> Mobile</a></li>
                     <li><a href="#"> Deportes</a></li>
                     <li><a href="#"> Ingresar</a></li>
-                    <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
+                    <CartWidget />
                 </ul>
                 <ul className="enlacesmobile">
                     <li><a href="#"> Tech</a></li>
@@ -31,7 +32,7 @@ function Navbar(params) {
                     <li><a href="#"> Mobile</a></li>
                     <li><a href="#"> Deportes</a></li>
                     <li><a href="#"> Ingresar</a></li>
-                    <li><a href="#"><i className="fas fa-shopping-cart"></i>Carrito</a></li>
+                    <CartWidget />
                 </ul>
             </nav>
         </header>
