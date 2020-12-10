@@ -31,7 +31,7 @@ function Navbar(params) {
                     <li><a href="#"> Mobile</a></li>
                     <li><a href="#"> Deportes</a></li>
                     <li><a href="#"> Ingresar</a></li>
-                    <li><a href="#"><i class="fas fa-shopping-cart"></i>Carrito</a></li>
+                    <li><a href="#"><i className="fas fa-shopping-cart"></i>Carrito</a></li>
                 </ul>
             </nav>
         </header>

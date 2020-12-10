@@ -6,11 +6,11 @@ function Carrusel(params) {
 
     return (
         <div>
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselCaptions" className="carousel slide" data-bs-ride="carousel">
                 <ol className="carousel-indicators">
-                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active"></li>
-                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselCaptions" data-bs-slide-to="0" className="active"></li>
+                    <li data-bs-target="#carouselCaptions" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselCaptions" data-bs-slide-to="2"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -35,11 +35,11 @@ function Carrusel(params) {
                         </div>
                     </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <a className="carousel-control-prev" href="#carouselCaptions" role="button" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </a>
-                <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <a className="carousel-control-next" href="#carouselCaptions" role="button" data-bs-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </a>
