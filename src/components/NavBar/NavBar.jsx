@@ -10,7 +10,7 @@ function Navbar(params) {
                     <a href="#">
                         <img src={logo} alt='Logo de la empresa' />
                     </a>
-                    <span>Flow Market</span>
+                    <span><a href="#">Flow Market</a></span>
                 </div>
                 <input type="checkbox" id="menu-bar" className="checkbox"></input>
                 <label className="icon-menu" htmlFor="menu-bar">
@@ -18,18 +18,20 @@ function Navbar(params) {
                     </i>
                 </label>
                 <ul className="enlaces">
-                    <li><a href="#"> Inicio</a></li>
-                    <li><a href="#"> Productos</a></li>
-                    <li><a href="#"> Ofertas</a></li>
-                    <li><a href="#"> Contacto</a></li>
+                    <li><a href="#"> Tech</a></li>
+                    <li><a href="#"> Ropa</a></li>
+                    <li><a href="#"> Mobile</a></li>
+                    <li><a href="#"> Deportes</a></li>
                     <li><a href="#"> Ingresar</a></li>
+                    <li><a href="#"><i className="fas fa-shopping-cart"></i></a></li>
                 </ul>
                 <ul className="enlacesmobile">
-                    <li><a href="#"> Inicio</a></li>
-                    <li><a href="#"> Productos</a></li>
-                    <li><a href="#"> Ofertas</a></li>
-                    <li><a href="#"> Contacto</a></li>
+                    <li><a href="#"> Tech</a></li>
+                    <li><a href="#"> Ropa</a></li>
+                    <li><a href="#"> Mobile</a></li>
+                    <li><a href="#"> Deportes</a></li>
                     <li><a href="#"> Ingresar</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i>Carrito</a></li>
                 </ul>
             </nav>
         </header>
