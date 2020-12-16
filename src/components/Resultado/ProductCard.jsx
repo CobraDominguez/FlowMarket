@@ -1,4 +1,5 @@
 import './ProductCard.css';
+import ProductItemCount from './ItemsCount/ItemCount';
 
 function ProductCard(props) {
 
@@ -8,7 +9,8 @@ function ProductCard(props) {
             <div className="card-body">
               <h5 className="card-title">{props.titulo}</h5>
               <p className="card-text">{props.desc}</p>
-              <a href="#" className="btn btn-primary">Agregar a carrito</a>
+              
+              <ProductItemCount />
             </div>
           </div>
       );
