@@ -4,7 +4,7 @@ import ProductItemCount from './ProductItemCount/ProductItemCount';
 function ProductCard(props) {
 
   function onAdd(cantidad) {
-    alert ('se agrego ' + cantidad + ' al carrito');
+    alert (`se agrego ${cantidad} al carrito`);
   } 
     return (
           <div className="card">
