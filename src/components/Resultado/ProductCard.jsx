@@ -12,7 +12,7 @@ function ProductCard(props) {
             <div className="card-body">
               <h5 className="card-title">{props.titulo}</h5>
               <p className="card-text">{props.desc}</p>
-              <h6>Stock {props.stock}</h6>
+              <h6>Stock: {props.stock}</h6>
               
               <ProductItemCount Agregar={onAdd} stock={props.stock}/>
             </div>
